@@ -1,0 +1,47 @@
+@import '../../Themes/Colors.sass'
+
+.podcast-detail-section
+  position: relative
+  .podcast-episodes
+    width: 63%
+    margin-left: 5%
+    display: inline-block
+    .episodes-count
+      font-weight: bold
+      font-size: 26px
+    .podcast-detail-list, .episodes-count
+      padding: 2%
+      height: auto
+      box-shadow: 0px 5px 12px 2px #8888888f
+      border-radius: 5px
+      vertical-align: top
+      display: block
+      margin-bottom: 3%
+      .list-titles
+        .title-date, .title-title, .title-duration
+          width: 25%
+          display: inline-block
+          font-weight: bold
+        .title-title
+          width: 50%
+        .title-duration
+         text-align: center
+        .title-date
+         text-align: center
+      .item
+        margin: 5px 0px
+        &.pair
+          background: #e0e0e07d
+        .title, .date, .duration
+          width: 25%
+          display: inline-block
+          overflow: hidden
+          text-overflow: ellipsis
+          white-space: nowrap
+
+        .date, .duration,
+          text-align: center
+        .title
+          cursor: pointer
+          color: $blue
+          width: 50%

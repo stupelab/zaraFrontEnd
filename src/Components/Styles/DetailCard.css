@@ -1,0 +1,38 @@
+div .detail-card {
+  width: 28%;
+  display: inline-block;
+  height: auto;
+  box-shadow: 0px 6px 12px 2px #8888888f;
+  border-radius: 5px;
+  padding: 2%;
+  vertical-align: top; }
+  div .detail-card .image-container {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    padding: 20px; }
+  div .detail-card .main-section {
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px; }
+    div .detail-card .main-section .title {
+      font-size: 20px;
+      font-weight: bold;
+      display: block; }
+    div .detail-card .main-section .author {
+      font-weight: 400;
+      font-style: oblique; }
+  div .detail-card .description-section {
+    padding-top: 10px; }
+    div .detail-card .description-section .description-title {
+      font-size: 18px;
+      font-weight: bold;
+      display: block; }
+    div .detail-card .description-section .description {
+      font-style: oblique;
+      display: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      overflow-wrap: break-word; }
+  div .detail-card img {
+    width: 100%;
+    border-radius: 5px; }

@@ -1,0 +1,43 @@
+.podcast-detail-section {
+  position: relative; }
+  .podcast-detail-section .podcast-episodes {
+    width: 63%;
+    margin-left: 5%;
+    display: inline-block; }
+    .podcast-detail-section .podcast-episodes .episodes-count {
+      font-weight: bold;
+      font-size: 26px; }
+    .podcast-detail-section .podcast-episodes .podcast-detail-list, .podcast-detail-section .podcast-episodes .episodes-count {
+      padding: 2%;
+      height: auto;
+      box-shadow: 0px 5px 12px 2px #8888888f;
+      border-radius: 5px;
+      vertical-align: top;
+      display: block;
+      margin-bottom: 3%; }
+      .podcast-detail-section .podcast-episodes .podcast-detail-list .list-titles .title-date, .podcast-detail-section .podcast-episodes .podcast-detail-list .list-titles .title-title, .podcast-detail-section .podcast-episodes .podcast-detail-list .list-titles .title-duration, .podcast-detail-section .podcast-episodes .episodes-count .list-titles .title-date, .podcast-detail-section .podcast-episodes .episodes-count .list-titles .title-title, .podcast-detail-section .podcast-episodes .episodes-count .list-titles .title-duration {
+        width: 25%;
+        display: inline-block;
+        font-weight: bold; }
+      .podcast-detail-section .podcast-episodes .podcast-detail-list .list-titles .title-title, .podcast-detail-section .podcast-episodes .episodes-count .list-titles .title-title {
+        width: 50%; }
+      .podcast-detail-section .podcast-episodes .podcast-detail-list .list-titles .title-duration, .podcast-detail-section .podcast-episodes .episodes-count .list-titles .title-duration {
+        text-align: center; }
+      .podcast-detail-section .podcast-episodes .podcast-detail-list .list-titles .title-date, .podcast-detail-section .podcast-episodes .episodes-count .list-titles .title-date {
+        text-align: center; }
+      .podcast-detail-section .podcast-episodes .podcast-detail-list .item, .podcast-detail-section .podcast-episodes .episodes-count .item {
+        margin: 5px 0px; }
+        .podcast-detail-section .podcast-episodes .podcast-detail-list .item.pair, .podcast-detail-section .podcast-episodes .episodes-count .item.pair {
+          background: #e0e0e07d; }
+        .podcast-detail-section .podcast-episodes .podcast-detail-list .item .title, .podcast-detail-section .podcast-episodes .podcast-detail-list .item .date, .podcast-detail-section .podcast-episodes .podcast-detail-list .item .duration, .podcast-detail-section .podcast-episodes .episodes-count .item .title, .podcast-detail-section .podcast-episodes .episodes-count .item .date, .podcast-detail-section .podcast-episodes .episodes-count .item .duration {
+          width: 25%;
+          display: inline-block;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .podcast-detail-section .podcast-episodes .podcast-detail-list .item .date, .podcast-detail-section .podcast-episodes .podcast-detail-list .item .duration, .podcast-detail-section .podcast-episodes .episodes-count .item .date, .podcast-detail-section .podcast-episodes .episodes-count .item .duration {
+          text-align: center; }
+        .podcast-detail-section .podcast-episodes .podcast-detail-list .item .title, .podcast-detail-section .podcast-episodes .episodes-count .item .title {
+          cursor: pointer;
+          color: #2271b8;
+          width: 50%; }
